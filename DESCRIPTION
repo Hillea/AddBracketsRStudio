@@ -1,0 +1,16 @@
+Package: AddBrackets
+Type: Package
+Title: Adds square brackets to the position where cursor is located
+Version: 0.1.0
+Author: Lea Hildebrandt
+Maintainer: Lea Hildebrandt <leakhildebrandt@gmail.com>
+Description: An RStudio addin for addingsquare brackets, based on roxygen2Comment.
+License: GPL-2 | GPL-3
+LazyData: TRUE
+URL: https://github.com/Hillea/AddBrackets
+BugReports: https://github.com/Hillea/AddBrackets
+Imports:
+    rstudioapi(>= 0.5)
+Suggests: knitr
+RoxygenNote: 5.0.1
+VignetteBuilder: knitr

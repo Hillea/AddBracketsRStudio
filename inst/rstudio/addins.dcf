@@ -1,0 +1,4 @@
+Name: square brackets
+Description: Add square brackets
+Binding: insertSquareBrackets
+Interactive: false

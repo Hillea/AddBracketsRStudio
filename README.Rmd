@@ -1,0 +1,31 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+
+# An RStudio addin to add square brackets (if keys do not work)
+
+RStudio addins let you execute a bit of R code or a Shiny app through the RStudio IDE,
+either via the Addins dropdown menu or with a keyboard shortcut. This package contains an RStudio addin for adding square brackets (adapted from https://github.com/csgillespie/roxygen2Comment).
+
+This package can be installed via
+```{r eval=FALSE}
+devtools::install_github("Hillea/AddBrackets")
+```
+
+## Running addins
+
+After installing the package, the _Addins_ menu toolbar will be populated with the 
+new, exported addin. 
