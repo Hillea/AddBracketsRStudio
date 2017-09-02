@@ -3,6 +3,6 @@
 #'
 #' @import rstudioapi
 #' @export
-insertSquareBrackets <- function() {
-  rstudioapi::insertText("[]")
+insertCurlyBraces <- function() {
+  rstudioapi::insertText("{}")
 }
